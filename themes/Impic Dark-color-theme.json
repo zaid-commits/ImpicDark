@@ -1,15 +1,15 @@
 {
 	"name": "Impic Dark",
 	"colors": {
-	  "editor.background": "#0000", // Dark background for the editor
-	  "editor.foreground": "#D4D4D4", // Light text color
-	  "editor.lineHighlightBackground": "#333333", // Highlight for the current line
-	  "editor.selectionBackground": "#13006649", // Background color for selected text
-	  "editorCursor.foreground": "#FFFFFF", // Color of the cursor
-	  "sideBar.background": "#252526", // Sidebar background
-	  "sideBar.foreground": "#CCCCCC", // Sidebar text color
-	  "statusBar.background": "#13006649", // Status bar background
-	  "statusBar.foreground": "#FFFFFF" // Status bar text color
+	  "editor.background": "#0F0F0F", // Very dark background for the editor
+	  "editor.foreground": "#AAAAAA", // Medium gray text color
+	  "editor.lineHighlightBackground": "#2B2B2B", // Darker highlight for the current line
+	  "editor.selectionBackground": "#333333", // Darker background color for selected text
+	  "editorCursor.foreground": "#66D9EF", // Brighter blue color for the cursor
+	  "sideBar.background": "#1F1F1F", // Very dark sidebar background
+	  "sideBar.foreground": "#B3B3B3", // Lighter gray sidebar text color
+	  "statusBar.background": "#333333", // Darker status bar background
+	  "statusBar.foreground": "#66D9EF" // Brighter blue status bar text color
 	},
   
 	"tokenColors": [
