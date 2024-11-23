@@ -1,21 +1,21 @@
 {
-	"name": "Impic Dark Pitch",
+	"name": "Impic Dark Pitch Final",
 	"colors": {
-	  "editor.background": "#0D1017",
-	  "editor.foreground": "#FFFFFF",
+	  "editor.background": "#0d1017",
+	  "editor.foreground": "#D4D4D4",
 	  "editor.lineHighlightBackground": "#1A1A1A",
 	  "editor.selectionBackground": "#264F78",
 	  "editorCursor.foreground": "#569CD6",
-	  "sideBar.background": "#0D1017",
-	  "sideBar.foreground": "#ffffff96",
-	  "statusBar.background": "#070707a9",
-	  "statusBar.foreground": "#f0f0f0bb",
-	  "activityBar.background": "#070707a9",
-	  "activityBar.foreground": "#f0f0f0bb",
-	  "tab.activeBackground": "#070707a9",
-	  "tab.inactiveBackground": "#070707a9",
-	  "titleBar.activeBackground": "#070707a9",
-	  "titleBar.activeForeground": "#FFFFFF"
+	  "sideBar.background": "#0d1017",
+	  "sideBar.foreground": "#A0A0A0",
+	  "statusBar.background": "#050709",
+	  "statusBar.foreground": "#D4D4D4",
+	  "activityBar.background": "#050709",
+	  "activityBar.foreground": "#D4D4D4",
+	  "tab.activeBackground": "#0D1017",
+	  "tab.inactiveBackground": "#080B11",
+	  "titleBar.activeBackground": "#050709",
+	  "titleBar.activeForeground": "#D4D4D4"
 	},
 	"tokenColors": [
 	  {
@@ -23,35 +23,35 @@
 		"scope": ["comment", "punctuation.definition.comment"],
 		"settings": {
 		  "fontStyle": "italic",
-		  "foreground": "#608B4E"
+		  "foreground": "#546E7A"
 		}
 	  },
 	  {
 		"name": "Variables",
 		"scope": ["variable", "string constant.other.placeholder"],
 		"settings": {
-		  "foreground": "#9CDCFE"
+		  "foreground": "#B084EB"
 		}
 	  },
 	  {
 		"name": "Colors",
 		"scope": ["constant.other.color"],
 		"settings": {
-		  "foreground": "#000"
+		  "foreground": "#79B8FF"
 		}
 	  },
 	  {
 		"name": "Invalid",
 		"scope": ["invalid", "invalid.illegal"],
 		"settings": {
-		  "foreground": "#F44747"
+		  "foreground": "#FF5370"
 		}
 	  },
 	  {
 		"name": "Keyword, Storage",
 		"scope": ["keyword", "storage.type", "storage.modifier"],
 		"settings": {
-		  "foreground": "#d7ba7d"
+		  "foreground": "#E68D35"
 		}
 	  },
 	  {
@@ -71,18 +71,7 @@
 		  "keyword.other.substitution"
 		],
 		"settings": {
-		  "foreground": "#D4D4D4"
-		}
-	  },
-	  {
-		"name": "Tag",
-		"scope": [
-		  "entity.name.tag",
-		  "meta.tag.sgml",
-		  "markup.deleted.git_gutter"
-		],
-		"settings": {
-		  "foreground": "#66D9EF"
+		  "foreground": "#89DDFF"
 		}
 	  },
 	  {
@@ -95,21 +84,21 @@
 		  "keyword.other.special-method"
 		],
 		"settings": {
-		  "foreground": "#DCDCAA"
+		  "foreground": "#D2B86C"
 		}
 	  },
 	  {
 		"name": "Block Level Variables",
 		"scope": ["meta.block variable.other"],
 		"settings": {
-		  "foreground": "#9CDCFE"
+		  "foreground": "#B084EB"
 		}
 	  },
 	  {
 		"name": "Other Variable, String Link",
 		"scope": ["support.other.variable", "string.other.link"],
 		"settings": {
-		  "foreground": "#FF8800"
+		  "foreground": "#B084EB"
 		}
 	  },
 	  {
@@ -125,7 +114,7 @@
 		  "keyword.other"
 		],
 		"settings": {
-		  "foreground": "#B5CEA8"
+		  "foreground": "#E68D35"
 		}
 	  },
 	  {
@@ -140,7 +129,7 @@
 		  "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 		],
 		"settings": {
-		  "foreground": "#a8e928"
+		  "foreground": "#AAD94C"
 		}
 	  },
 	  {
@@ -156,14 +145,14 @@
 		  "support.type.sys-types"
 		],
 		"settings": {
-		  "foreground": "#4EC9B0"
+		  "foreground": "#5CA8E6"
 		}
 	  },
 	  {
 		"name": "Entity Types",
 		"scope": ["support.type"],
 		"settings": {
-		  "foreground": "#4EC9B0"
+		  "foreground": "#5CA8E6"
 		}
 	  },
 	  {
@@ -177,7 +166,7 @@
 		  "source.postcss support.type.property-name"
 		],
 		"settings": {
-		  "foreground": "#9CDCFE"
+		  "foreground": "#5CA8E6"
 		}
 	  },
 	  {
@@ -188,7 +177,7 @@
 		  "variable.other.class.js"
 		],
 		"settings": {
-		  "foreground": "#FF8800"
+		  "foreground": "#B084EB"
 		}
 	  },
 	  {
@@ -196,7 +185,7 @@
 		"scope": ["variable.language"],
 		"settings": {
 		  "fontStyle": "italic",
-		  "foreground": "#569CD6"
+		  "foreground": "#5CA8E6"
 		}
 	  },
 	  {
@@ -204,7 +193,7 @@
 		"scope": ["entity.name.method.js"],
 		"settings": {
 		  "fontStyle": "italic",
-		  "foreground": "#DCDCAA"
+		  "foreground": "#D2B86C"
 		}
 	  },
 	  {
@@ -214,14 +203,14 @@
 		  "variable.function.constructor"
 		],
 		"settings": {
-		  "foreground": "#DCDCAA"
+		  "foreground": "#D2B86C"
 		}
 	  },
 	  {
 		"name": "Attributes",
 		"scope": ["entity.other.attribute-name"],
 		"settings": {
-		  "foreground": "#9CDCFE"
+		  "foreground": "#B084EB"
 		}
 	  },
 	  {
@@ -232,56 +221,56 @@
 		],
 		"settings": {
 		  "fontStyle": "italic",
-		  "foreground": "#FF8800"
+		  "foreground": "#5CA8E6"
 		}
 	  },
 	  {
 		"name": "CSS Classes",
 		"scope": ["entity.other.attribute-name.class"],
 		"settings": {
-		  "foreground": "#4EC9B0"
+		  "foreground": "#5CA8E6"
 		}
 	  },
 	  {
 		"name": "CSS ID's",
 		"scope": ["source.sass keyword.control"],
 		"settings": {
-		  "foreground": "#569CD6"
+		  "foreground": "#5CA8E6"
 		}
 	  },
 	  {
 		"name": "Inserted",
 		"scope": ["markup.inserted"],
 		"settings": {
-		  "foreground": "#B5CEA8"
+		  "foreground": "#8DC891"
 		}
 	  },
 	  {
 		"name": "Deleted",
 		"scope": ["markup.deleted"],
 		"settings": {
-		  "foreground": "#F44747"
+		  "foreground": "#FF5370"
 		}
 	  },
 	  {
 		"name": "Changed",
 		"scope": ["markup.changed"],
 		"settings": {
-		  "foreground": "#569CD6"
+		  "foreground": "#B084EB"
 		}
 	  },
 	  {
 		"name": "Regular Expressions",
 		"scope": ["string.regexp"],
 		"settings": {
-		  "foreground": "#D16969"
+		  "foreground": "#89DDFF"
 		}
 	  },
 	  {
 		"name": "Escape Characters",
 		"scope": ["constant.character.escape"],
 		"settings": {
-		  "foreground": "#D7BA7D"
+		  "foreground": "#89DDFF"
 		}
 	  },
 	  {
@@ -299,16 +288,24 @@
 		],
 		"settings": {
 		  "fontStyle": "italic",
-		  "foreground": "#569CD6"
+		  "foreground": "#5CA8E6"
 		}
 	  },
-	  {		"name": "ES7 Bind Operator",
+	  {
+		"name": "ES7 Bind Operator",
 		"scope": [
 		  "source.js constant.other.object.key.js string.unquoted.label.js"
 		],
 		"settings": {
 		  "fontStyle": "italic",
-		  "foreground": "#FF8800"
+		  "foreground": "#B084EB"
+		}
+	  },
+	  {
+		"name": "TypeScript Types",
+		"scope": ["support.type.primitive.ts", "support.type.builtin.ts", "support.type.primitive.tsx", "support.type.builtin.tsx"],
+		"settings": {
+		  "foreground": "#5CA8E6"
 		}
 	  }
 	]
