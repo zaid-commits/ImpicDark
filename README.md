@@ -1,4 +1,4 @@
-# ImpicDark README
+# ImpicDark - A Theme for Dark Lovers!
 
 ## Working with Markdown
 
