@@ -1,20 +1,20 @@
 {
 	"name": "Impic Dark Pitch",
 	"colors": {
-	  "editor.background": "#000000",
+	  "editor.background": "#0D1017",
 	  "editor.foreground": "#FFFFFF",
 	  "editor.lineHighlightBackground": "#1A1A1A",
 	  "editor.selectionBackground": "#264F78",
 	  "editorCursor.foreground": "#569CD6",
-	  "sideBar.background": "#000000",
-	  "sideBar.foreground": "#FFFFFF",
-	  "statusBar.background": "#000000",
-	  "statusBar.foreground": "#569CD6",
-	  "activityBar.background": "#000000",
-	  "activityBar.foreground": "#569CD6",
-	  "tab.activeBackground": "#000000",
-	  "tab.inactiveBackground": "#1A1A1A",
-	  "titleBar.activeBackground": "#000000",
+	  "sideBar.background": "#0D1017",
+	  "sideBar.foreground": "#ffffff96",
+	  "statusBar.background": "#070707a9",
+	  "statusBar.foreground": "#f0f0f0bb",
+	  "activityBar.background": "#070707a9",
+	  "activityBar.foreground": "#f0f0f0bb",
+	  "tab.activeBackground": "#070707a9",
+	  "tab.inactiveBackground": "#070707a9",
+	  "titleBar.activeBackground": "#070707a9",
 	  "titleBar.activeForeground": "#FFFFFF"
 	},
 	"tokenColors": [
@@ -37,7 +37,7 @@
 		"name": "Colors",
 		"scope": ["constant.other.color"],
 		"settings": {
-		  "foreground": "#CE9178"
+		  "foreground": "#000"
 		}
 	  },
 	  {
@@ -51,7 +51,7 @@
 		"name": "Keyword, Storage",
 		"scope": ["keyword", "storage.type", "storage.modifier"],
 		"settings": {
-		  "foreground": "#FF8800"
+		  "foreground": "#d7ba7d"
 		}
 	  },
 	  {
@@ -140,7 +140,7 @@
 		  "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 		],
 		"settings": {
-		  "foreground": "#CE9178"
+		  "foreground": "#a8e928"
 		}
 	  },
 	  {
@@ -302,8 +302,7 @@
 		  "foreground": "#569CD6"
 		}
 	  },
-	  {
-		"name": "ES7 Bind Operator",
+	  {		"name": "ES7 Bind Operator",
 		"scope": [
 		  "source.js constant.other.object.key.js string.unquoted.label.js"
 		],
