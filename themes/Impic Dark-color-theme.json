@@ -35,7 +35,18 @@
 	"editorHoverWidget.foreground": "#D4D4D4",
 	"editorHoverWidget.border": "#0f131a",
 	"editorHoverWidget.statusBarBackground": "#0f131a",
-	
+
+
+	//git decoration
+	"gitDecoration.addedResourceForeground": "#8DC891",
+	"gitDecoration.modifiedResourceForeground": "#B084EB",
+	"gitDecoration.deletedResourceForeground": "#FF5370",
+	"gitDecoration.untrackedResourceForeground": "#B084EB",
+	"gitDecoration.ignoredResourceForeground": "#546E7A",
+	"gitDecoration.conflictingResourceForeground": "#FF5370",
+	"gitDecoration.submoduleResourceForeground": "#5CA8E6",
+	"gitDecoration.stageModifiedResourceForeground": "#B084EB",
+	"gitDecoration.stageDeletedResourceForeground": "#FF5370",
   },
 
   "tokenColors": [
