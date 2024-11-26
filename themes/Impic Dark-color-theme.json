@@ -4,6 +4,9 @@
     "editor.background": "#0d1017",
     "editor.foreground": "#D4D4D4",
 
+	"button.background": "#e6b450",
+	"button.foreground": "#000000",
+	"button.hoverBackground": "#d4a040",
 	//editor selection colors
     "editor.lineHighlightBackground": "#1A1A1A",
     "editor.selectionBackground": "#264F78",
