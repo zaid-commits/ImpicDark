@@ -15,7 +15,14 @@
 	  "tab.activeBackground": "#0D1017",
 	  "tab.inactiveBackground": "#080B11",
 	  "titleBar.activeBackground": "#050709",
-	  "titleBar.activeForeground": "#D4D4D4"
+	  "titleBar.activeForeground": "#D4D4D4",
+	  "menu.background": "#0d1017", 
+	  "menu.foreground": "#f0f0f0",  
+	  "menu.selectionBackground": "#7645b8",
+	  "menu.selectionForeground": "#f0f0f0",
+	  "terminal.background": "#0d1017",
+	  "terminal.foreground": "#B084EB",
+	  "terminalCursor.foreground": "#B084EB",
 	},
 	"tokenColors": [
 	  {
@@ -310,5 +317,3 @@
 	  }
 	]
   }
-  
-  
