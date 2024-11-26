@@ -7,22 +7,22 @@
 	//editor selection colors
     "editor.lineHighlightBackground": "#1A1A1A",
     "editor.selectionBackground": "#264F78",
-    "editorCursor.foreground": "#569CD6",
+    "editorCursor.foreground": "#e6b450",
 
 	//editor syntax colors
 	"sideBar.background": "#0d1017",
 	"sideBar.foreground": "#A0A0A0",
-	"statusBar.background": "#050709",
-	"statusBar.foreground": "#D4D4D4",
+	"statusBar.background": "#0d1017",
+	"statusBar.foreground": "#a0a0a0",
 	"sideBarSectionHeader.background": "#0d1017",
-	"sideBarSectionHeader.foreground": "#D4D4D4",
+	"sideBarSectionHeader.foreground": "#A0A0A0",
 	"sideBarTitle.foreground": "#D4D4D4",
 	"sideBarSectionHeader.border": "#1A1A1A",
 	"list.activeSelectionBackground": "#6c738033",
 	"list.inactiveFocusBackground": "#050709",
 	"list.inactiveSelectionBackground": "#6c738033",
-	"list.inactiveSelectionForeground": "#ffff00b6",
-	"list.activeSelectionForeground": "#ffff00b6",
+	"list.inactiveSelectionForeground": "#e6b450",
+	"list.activeSelectionForeground": "#e6b450",
 
 	//editor gutter colors
 	"editorGutter.background": "#0d1017",
@@ -37,14 +37,35 @@
 	"editorWidget.resizeBorder": "#0f131a",
 
 	//activity bar colors
-    "activityBar.background": "#050709",
-    "activityBar.foreground": "#D4D4D4",
-    "tab.activeBackground": "#0D1017",
-    "tab.inactiveBackground": "#080B11",
+  // Activity Bar Background and Border
+  "activityBar.background": "#0d1017",      // Background color of the activity bar
+  "activityBar.foreground": "#a0a0a0",      // Foreground color of the icons (inactive state)
+
+  // Active Icon and Hover Effects
+//   "activityBar.activeBorder": "#FFD700",    // Border color of the active icon
+  "activityBar.activeBackground": "#0d1017", // Background of the active item (optional)
+  "activityBar.activeFocusBorder": "#FFD700", // Border around the active item when focused
+
+  // Badge Styling (e.g., notification counts)
+  "activityBarBadge.background": "#e6b450", // Background color of the badge
+  "activityBarBadge.foreground": "#000", // Text color of the badge
+
+  // Hover and Drag Effects
+  "activityBar.inactiveForeground": "#4d4d50", 
+
+  // Numbers on Icons (Part of badges)
+
+  //tab bar
+  "tab.activeBackground": "#0d1017",
+  "tab.activeForeground": "#D4D4D4",
+  "tab.border": "#0d1017",
+  "tab.inactiveBackground": "#0d1017f1",
+  "tab.inactiveForeground": "#a0a0a0a4",
+  
 
 	//title bar colors
-    "titleBar.activeBackground": "#050709",
-    "titleBar.activeForeground": "#D4D4D4",
+    "titleBar.activeBackground": "#0d1017",
+    "titleBar.activeForeground": "#a0a0a0", ////////
 
 	//menu colors
     "menu.background": "#0d1017",
@@ -53,9 +74,9 @@
     "menu.selectionForeground": "#f0f0f0",
 
 	//terminal colors
-    "terminal.background": "#0d1017",
-    "terminal.foreground": "#B084EB",
-    "terminalCursor.foreground": "#B084EB",
+    // "terminal.background": "#0d1017",
+    // "terminal.foreground": "#B084EB",
+    // "terminalCursor.foreground": "#B084EB",
 	
 	//editor colors
     "editorWarning.foreground": "#E68D35",
