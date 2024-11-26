@@ -1,14 +1,13 @@
 {
-  "name": "ImpicDark",
-  "displayName": "arcTheme",
-  "description": "Theme for Devs who love Dark.",
-  "version": "0.0.1",
+  "name": "impic-dark",
+  "displayName": "Impic Dark",
+  "description": "A personalized theme for dark theme lovers.",
+  "version": "1.0.0",
+  "publisher": "Zaid Rakhange",
   "engines": {
-    "vscode": "^1.95.0"
+    "vscode": "^1.70.0"
   },
-  "categories": [
-    "Themes"
-  ],
+  "categories": ["Themes"],
   "contributes": {
     "themes": [
       {
@@ -17,5 +16,9 @@
         "path": "./themes/Impic Dark-color-theme.json"
       }
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zaid-commits/ImpicDark"
   }
 }
