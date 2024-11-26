@@ -3,28 +3,63 @@
   "colors": {
     "editor.background": "#0d1017",
     "editor.foreground": "#D4D4D4",
+
+	//editor selection colors
     "editor.lineHighlightBackground": "#1A1A1A",
     "editor.selectionBackground": "#264F78",
     "editorCursor.foreground": "#569CD6",
-    "sideBar.background": "#0d1017",
-    "sideBar.foreground": "#A0A0A0",
-    "statusBar.background": "#050709",
-    "statusBar.foreground": "#D4D4D4",
+
+	//editor syntax colors
+	"sideBar.background": "#0d1017",
+	"sideBar.foreground": "#A0A0A0",
+	"statusBar.background": "#050709",
+	"statusBar.foreground": "#D4D4D4",
+	"sideBarSectionHeader.background": "#0d1017",
+	"sideBarSectionHeader.foreground": "#D4D4D4",
+	"sideBarTitle.foreground": "#D4D4D4",
+	"sideBarSectionHeader.border": "#1A1A1A",
+	"list.activeSelectionBackground": "#6c738033",
+	"list.inactiveFocusBackground": "#050709",
+	"list.inactiveSelectionBackground": "#6c738033",
+	"list.inactiveSelectionForeground": "#ffff00b6",
+	"list.activeSelectionForeground": "#ffff00b6",
+
+	//editor gutter colors
+	"editorGutter.background": "#0d1017",
+	"editorGutter.modifiedBackground": "#B084EB",
+	"editorGutter.addedBackground": "#8DC891",
+	"editorGutter.deletedBackground": "#FF5370",
+
+	//editor widget colors
+	"editorWidget.background": "#0f131a",
+	"editorWidget.border": "#0f131a",
+	"editorWidget.foreground": "#D4D4D4",
+	"editorWidget.resizeBorder": "#0f131a",
+
+	//activity bar colors
     "activityBar.background": "#050709",
     "activityBar.foreground": "#D4D4D4",
     "tab.activeBackground": "#0D1017",
     "tab.inactiveBackground": "#080B11",
+
+	//title bar colors
     "titleBar.activeBackground": "#050709",
     "titleBar.activeForeground": "#D4D4D4",
+
+	//menu colors
     "menu.background": "#0d1017",
     "menu.foreground": "#f0f0f0",
     "menu.selectionBackground": "#7645b8",
     "menu.selectionForeground": "#f0f0f0",
+
+	//terminal colors
     "terminal.background": "#0d1017",
     "terminal.foreground": "#B084EB",
     "terminalCursor.foreground": "#B084EB",
-    "editorError.foreground": "#FF69B4",
+	
+	//editor colors
     "editorWarning.foreground": "#E68D35",
+    "editorError.foreground": "#FF69B4",
     "editorSuggestWidget.background": "#0f131a",
     "editorSuggestWidget.foreground": "#D4D4D4",
     "editorSuggestWidget.selectedBackground": "#6c738033",
