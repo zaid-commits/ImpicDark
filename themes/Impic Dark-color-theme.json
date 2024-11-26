@@ -220,7 +220,10 @@
         "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
       ],
       "settings": {
-        "foreground": "#AAD94C"
+        // "foreground": "#eb6385"
+        // "foreground": "#e2795f"
+        // "foreground": "#73e2a7c5"
+        "foreground": "#e6b450"
       }
     },
     {
