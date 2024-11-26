@@ -72,7 +72,7 @@
 
 	//menu colors
     "menu.background": "#0d1017",
-    "menu.foreground": "#f0f0f0",
+    "menu.foreground": "#a0a0a0",
     "menu.selectionBackground": "#7645b8",
     "menu.selectionForeground": "#f0f0f0",
 
